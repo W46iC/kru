@@ -1,0 +1,63 @@
+body{
+
+background-color: black;
+
+}
+
+
+h1{
+
+
+color: whitesmoke;
+text-align: center;
+
+}
+
+
+.kisb{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+
+}
+
+
+.example{
+    text-align: unset;
+    position: relative;
+    animation: example ;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+
+  }
+  
+  @keyframes example {
+    0% {left: -110% ;opacity:0%;}
+    0%   { }
+    1%   {opacity:10% ;}
+    2%  {opacity:10% ;}
+    3%  {opacity:20% ;}
+    4%  {opacity:30% ;}
+    5%  {opacity:40% }
+    6%  {opacity:50% }
+    7%  {opacity:60% }
+    8%  {opacity:70% }
+    8%  {opacity:80% }
+    9%  {opacity:90% }
+    10% {opacity:100%;}
+    50% {left:100% ; }
+    50%   {opacity:0% ;}
+    52%  {opacity:10% ;}
+    53%  {opacity:20% ;}
+    54%  {opacity:30% ;}
+    55%  {opacity:40% }
+    56%  {opacity:50% }
+    57%  {opacity:60% }
+    58%  {opacity:70% }
+    58%  {opacity:80% }
+    59%  {opacity:90% }
+    100% {left: -110%;}
+  }
